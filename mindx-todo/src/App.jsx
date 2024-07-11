@@ -36,7 +36,7 @@ const App = () => {
         }}
         className="items-center lato-bold "
       >
-        # todo
+        #todo
       </h1>
 
       <Tabs defaultActiveKey="1" items={items} onChange={onChange} centered>
