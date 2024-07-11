@@ -9,7 +9,7 @@ const All = () => {
   const [form] = Form.useForm();
 
   const handleFinish = (values) => {
-    onFinish(values, form); // Pass the form instance to onFinish
+    onFinish(values, form);
   };
 
   const onFinishFailed = (errorInfo) => {
